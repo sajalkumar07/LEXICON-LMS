@@ -68,7 +68,7 @@ const LandingPage = () => {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
             >
-              <h1 className="cursor-pointer text-black font-semibold tracking-normal">
+              <h1 className="cursor-pointer text-white font-semibold tracking-normal">
                 Unleash
               </h1>
             </motion.div>

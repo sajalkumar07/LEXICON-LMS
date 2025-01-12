@@ -53,12 +53,12 @@ const Login = () => {
   return (
     <div className="flex justify-center items-center  text-white">
       <div className="absolute top-0 left-0 p-4 text-gray-400 flex justify-between w-full ">
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-3xl font-bold text-white">
           <span className="text-orange-400">L</span>EXICON
         </h1>
       </div>
       <motion.main className="flex flex-col md:flex-row  w-[100%] h-screen p-0 md:p-0 justify-between">
-        <div className="text-black flex justify-center items-center  w-full md:w-[50%] mx-auto p-6 flex-col bg-red-200   ">
+        <div className="text-white flex justify-center items-center  w-full md:w-[50%] mx-auto p-6 flex-col bg-gray-800 ">
           <div className="flex flex-col text-left space-y-4">
             <motion.h1
               initial="initial"
@@ -79,11 +79,11 @@ const Login = () => {
             </h1>
             <div className="mt-32 text-sm flex font-semibold">
               {" "}
-              <p className=" text-black">
+              <p className=" text-white">
                 <h6>if you don't have an account</h6>
                 <Link to="/signup" className="text-[#2414ff] cursor-pointer">
                   <h6>
-                    <span className="text-black">you can </span>signup here{" "}
+                    <span className="text-white">you can </span>signup here{" "}
                   </h6>
                 </Link>
               </p>

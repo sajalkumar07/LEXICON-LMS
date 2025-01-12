@@ -6,16 +6,16 @@ const Navbar = () => {
   return (
     <div>
       <main className="">
-        <nav className="fixed top-0 left-0 w-full p-3  bg-opacity-100 backdrop-blur-sm  z-50 text-white">
+        <nav className="fixed top-0 left-0 w-full p-3  bg-opacity-50 backdrop-blur-sm bg-gray-900 z-50 text-white ">
           <header className="flex justify-between items-center">
-            <div className="flex items-center ">
-              <h1 className="text-3xl font-bold text-white">
+            <div className="flex items-center bg-gray-900 rounded-md p-2 ">
+              <h1 className="text-xl font-bold text-white">
                 <span className="text-orange-500">L</span>
                 EXICON
               </h1>
             </div>
-            <div>
-              <ul className="flex justify-between items-center gap-8">
+            <div className="">
+              <ul className="flex justify-between items-center gap-8 ">
                 <Link to="/">
                   <li className="relative group cursor-pointer">
                     Home
@@ -35,16 +35,20 @@ const Navbar = () => {
                 </li>
                 <li className="relative group cursor-pointer">
                   <span className="absolute left-1/2 bottom-0 block w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300 transform -translate-x-1/2"></span>
-                  Contact
+                  Blog
+                </li>
+                <li className="relative group cursor-pointer">
+                  <span className="absolute left-1/2 bottom-0 block w-0 h-[2px] bg-white group-hover:w-full transition-all duration-300 transform -translate-x-1/2"></span>
+                  Career
                 </li>
               </ul>
             </div>
-            <div className="flex justify-between items-center gap-8">
+            <div className="flex justify-between items-center gap-8 text-sm font-semibold">
               {/* <Link to="/login">
                 <div className="bg-transparent p-2  rounded-sm">Join Now</div>
               </Link> */}
               <Link to="/signup">
-                <button className="cursor-pointer bg-white bg-opacity-10 p-3  w-auto h-10 flex justify-center items-center text-center space-x-2 rounded-md backdrop-blur-md shadow-lg hover:bg-opacity-15 ml-auto duration-300">
+                <button className="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600">
                   Join Now
                 </button>
               </Link>
