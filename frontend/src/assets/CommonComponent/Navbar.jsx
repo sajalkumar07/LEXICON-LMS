@@ -7,8 +7,8 @@ const Navbar = () => {
     <div>
       <main className="">
         <nav className="fixed top-0 left-0 w-full p-3  bg-opacity-50 backdrop-blur-sm bg-gray-900 z-50 text-white ">
-          <header className="flex justify-between items-center">
-            <div className="flex items-center bg-gray-900 rounded-md p-2 ">
+          <header className="flex justify-between items-center h-8">
+            <div className="flex items-center bg-gray-900 rounded-md p-2">
               <h1 className="text-xl font-bold text-white">
                 <span className="text-orange-500">L</span>
                 EXICON

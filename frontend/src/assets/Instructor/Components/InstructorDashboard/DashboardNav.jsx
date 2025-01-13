@@ -12,13 +12,15 @@ const InstructorDashboardSidebar = () => {
         "fixed z-40 h-screen font-roboto transition-all duration-500 ease-in-out w-60"
       }
     >
-      <aside className="bg-gray-950 text-white h-full w-full relative">
+      <aside className="bg-gray-900 text-white h-full w-full relative">
         <div className="text-xl font-bold border-b border-white/20 h-16 flex items-center px-2 ">
           <Link to="/create-course" className="flex items-center">
             <div className="flex items-center gap-2 relative">
               <div className="flex items-center justify-center overflow-hidden transition-all duration-300 ease-in-out">
                 <span className="whitespace-nowrap text-2xl">
-                  <span className="text-orange-400">L</span>exicon Instructor
+                  <Link to="/instructor-dashboard">
+                    <span className="text-orange-400">L</span>exicon Instructor
+                  </Link>
                 </span>
               </div>
             </div>
